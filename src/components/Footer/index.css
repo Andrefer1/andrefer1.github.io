@@ -1,0 +1,29 @@
+.section-footer {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: 30% 80% 30%;
+    grid-template-areas: 
+        '. . . . ff ff ff . . . .'
+        '. . . . fs fs fs . . . .'
+        '. . . . fm fm fm . . . .';
+    grid-gap: 3px;
+    text-align: center;
+}
+
+.follow-me {
+    grid-area: ff;
+}
+
+.social-media {
+    grid-area: fs;
+    /* white-space: nowrap; */
+}
+
+.social-media img {
+    margin: 0 10px 5px 10px;
+}
+
+.message {
+    grid-area: fm;
+    align-items: center;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './index.css'
+
 import me from '../../assets/header/Me.png'
 
 export default function Header() {
