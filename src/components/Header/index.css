@@ -45,7 +45,7 @@
 
 .header-buttons {
     grid-area: hb;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
