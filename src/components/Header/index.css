@@ -1,0 +1,68 @@
+.section-header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 125px;
+    grid-template-areas: 
+        '. hp hd hd hd hd hd hd hb hb hb .';
+    grid-gap: 3px;
+}
+
+.section-header .pht {
+    grid-area: hp;
+    margin-right: 7px;
+    /* border: solid 1px black; */
+}
+
+.section-header .photo {
+    max-width: 100%;
+    height: auto;  
+}
+
+.section-header .size-photo {
+    max-width: 194px;
+    max-height: 194px;
+    transform: translate(0px, 30px);
+}
+
+.section-header .my-datas {
+    grid-area: hd;
+    /* border: solid 1px black; */
+    white-space: nowrap;
+}
+
+.section-header .my-datas div {
+    transform: translate(0, 95px);
+}
+
+.section-header .my-datas .name {
+    font-size: 25px;
+    color: #FFF;
+}
+
+.section-header .my-datas .graduation {
+    font-size: 15px;
+}
+
+.header-buttons {
+    grid-area: hb;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-buttons a {
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 10px;
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-buttons a:hover {
+    font-size: 27px; 
+    color: #FFF;
+    text-decoration: none;
+    transition: .2s;
+}
