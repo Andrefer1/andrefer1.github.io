@@ -8,11 +8,23 @@ import Footer from './components/Footer/index'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes />
-      <Footer />
-    </BrowserRouter>
+    <div className="App">
+      
+      <BrowserRouter>
+        <header>
+          <Header />
+        </header>
+
+        <main>
+          <Routes />
+        </main>
+
+        <footer>
+          <Footer />
+        </footer>
+      </BrowserRouter>
+
+    </div>
   );
 }
 

@@ -3,7 +3,7 @@ import React from 'react'
 import './index.css'
 
 export default function Header() {
-    return(
+    return (
         <h1>Header</h1>
     )
 }
