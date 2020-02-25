@@ -1,0 +1,45 @@
+.section-main {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: 102px auto auto auto auto auto auto;
+    grid-template-areas: 
+        '. . . . . . . . . . . . .'
+        '. img1 img1 img1 img1 img1 . img2 img2 img2 img2 img2 .'
+        '. img1 img1 img1 img1 img1 . img2 img2 img2 img2 img2 .'
+        '. img1 img1 img1 img1 img1 . img4 img4 img4 img4 img4 .'
+        '. img3 img3 img3 img3 img3 . img4 img4 img4 img4 img4 .'
+        '. img3 img3 img3 img3 img3 . img4 img4 img4 img4 img4 .'
+        '. img3 img3 img3 img3 img3 . img4 img4 img4 img4 img4 .'
+        ;
+    grid-gap: 25px;
+}
+
+.img-1 {
+    grid-area: img1;
+    width: 472px;
+    height: 738px;
+    border: solid 1px black;
+}
+
+.img-2 {
+    grid-area: img2;
+    width: 315px;
+    height: 390px;
+    border: solid 1px black;
+}
+
+.img-3 {
+    grid-area: img3;
+    width: 472px;
+    height: 525px;
+    border: solid 1px black;
+}
+
+.img-4 {
+    grid-area: img4;
+    width: 472px;
+    height: 525px;
+    border: solid 1px black;
+}
+
+
