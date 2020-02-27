@@ -24,7 +24,7 @@
 
 header {
     grid-area: h;
-    background: #00063D;
+    background: #00063D;  /* #45F3FF */
 }
 
 main {
